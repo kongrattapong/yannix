@@ -43,7 +43,7 @@ def get_all_chat_in_room(data_list):
     return print(data_list.get('chatEvent') if data_list else list())
 
 while True:
-    action = input("Action\n1. Initialize data\n2. getRoomById\n3. getAllRoom\n4. getChatByI\n5. getAllChatInRoom\n\nSelect the action: ")
+    action = input("Action\n1. Initialize data\n2. getRoomById\n3. getAllRoom\n4. getChatById\n5. getAllChatInRoom\n\nSelect the action: ")
 
     if action == "1":
         data = get_initial_data()
